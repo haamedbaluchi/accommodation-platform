@@ -1,0 +1,80 @@
+export const destinationTypeItems = [
+  {
+    value: 'شروع سفر',
+    id: 'trip_start',
+  },
+  {
+    id: 'stay',
+    value: 'اقامت',
+  },
+  {
+    value: 'بازدید',
+    id: 'visit',
+  },
+  {
+    value: 'توقف بین راه',
+    id: 'stopover',
+  },
+  {
+    id: 'return',
+    value: 'بازگشت',
+  },
+];
+
+export const favoritePlace = [
+  {
+    id: '324',
+    name: 'شیراز',
+    city: 'شیراز',
+    province: 'فارس',
+    country: 'ایران',
+    distance: 530,
+    imageUrl: '/images/destinations/shiraz.jpg',
+    imageAlt: 'شهر شیراز',
+    distanceUnit: 'km' as const,
+  },
+  {
+    id: '1245',
+    name: 'تبریز',
+    city: 'تبریز',
+    province: 'تبریز',
+    country: 'ایران',
+    distance: 1000,
+    imageUrl: '/images/destinations/tabriz.png',
+    imageAlt: 'شهر تبریز',
+    distanceUnit: 'km' as const,
+  },
+  {
+    id: '5674',
+    name: 'بوشهر',
+    city: 'بوشهر',
+    province: 'بوشهر',
+    country: 'ایران',
+    distance: 1200,
+    imageUrl: '/images/destinations/boshehr.png',
+    imageAlt: 'شهر بوشهر',
+    distanceUnit: 'km' as const,
+  },
+  {
+    id: '25634',
+    name: 'مشهد',
+    city: 'مشهد',
+    province: 'مشهد',
+    country: 'ایران',
+    distance: 525,
+    imageUrl: '/images/destinations/mashhad.jpg',
+    imageAlt: 'شهر مشهد',
+    distanceUnit: 'km' as const,
+  },
+  {
+    id: '23465',
+    name: 'اصفهان',
+    city: 'اصفهان',
+    province: 'اصفهان',
+    country: 'ایران',
+    distance: 525,
+    imageUrl: '/images/destinations/mashhad.jpg',
+    imageAlt: 'شهر اصفهان',
+    distanceUnit: 'km' as const,
+  },
+];

@@ -1,0 +1,30 @@
+@keyframes partners-showcase {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(50%);
+  }
+}
+
+.partners-showcase {
+  animation: partners-showcase 35s linear infinite;
+  will-change: transform;
+}
+
+.partners-showcase:hover {
+  animation-play-state: paused;
+}
+
+@media (max-width: 768px) {
+  .partners-showcase {
+    animation-duration: 30s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .partners-showcase {
+    animation: none;
+  }
+}

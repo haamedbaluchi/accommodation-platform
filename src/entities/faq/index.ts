@@ -1,0 +1,1 @@
+export type { FaqItem, FaqCategory } from "./model/types";

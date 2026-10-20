@@ -1,0 +1,1 @@
+export {HotelDetails} from "./ui/hotel-details"

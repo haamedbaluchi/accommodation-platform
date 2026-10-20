@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  nextjs_frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - NEXT_PUBLIC_NESHAN_MAP_KEY=web.eb801a11a14f4207af27f9f09faa81dc
+        - NEXT_PUBLIC_BACKEND_URL=http://78.157.54.124:8000
+    container_name: next_frontend
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_NESHAN_MAP_KEY=web.eb801a11a14f4207af27f9f09faa81dc
+      - NEXT_PUBLIC_BACKEND_URL=http://78.157.54.124:8000

@@ -1,0 +1,1 @@
+export {BookingHotelModal} from "./ui/BookingHotelModal"

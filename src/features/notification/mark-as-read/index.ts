@@ -1,0 +1,1 @@
+export { useMarkAsRead } from './model/useMarkAsRead';

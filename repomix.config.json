@@ -1,0 +1,58 @@
+{
+  "output": {
+    "filePath": "repomix-output.md",
+    "style": "markdown",
+    "removeComments": false,
+    "showLineNumbers": true,
+    "topFilesLength": 10
+  },
+  "include": [
+    "app/**",
+    "_app/**",
+    "src/**",
+    "views/**",
+    "components/**",
+    "lib/**",
+    "utils/**",
+    "hooks/**",
+    "styles/**",
+    "middleware.*",
+    "next.config.*",
+    "package.json",
+    "tsconfig.json",
+    "tailwind.config.*",
+    "postcss.config.*",
+    "README.md"
+  ],
+  "ignore": {
+    "useGitignore": true,
+    "useDefaultPatterns": true,
+    "customPatterns": [
+      ".next/**",
+      "out/**",
+      "build/**",
+      "node_modules/**",
+      ".env",
+      ".env.*",
+      "*.local",
+      "coverage/**",
+      ".vercel/**",
+      ".turbo/**",
+      "public/**",
+      "package-lock.json",
+      "pnpm-lock.yaml",
+      "yarn.lock",
+      "*.png",
+      "*.jpg",
+      "*.jpeg",
+      "*.gif",
+      "*.svg",
+      "*.ico",
+      "*.woff",
+      "*.woff2",
+      "**/shared/assets/**",
+      "shared/assets/**",
+      "src/shared/assets/**"
+    ]
+  }
+}

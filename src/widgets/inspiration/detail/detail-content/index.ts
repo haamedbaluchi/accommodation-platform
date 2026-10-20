@@ -1,0 +1,1 @@
+export {DetailContent} from "./ui/detail-content"

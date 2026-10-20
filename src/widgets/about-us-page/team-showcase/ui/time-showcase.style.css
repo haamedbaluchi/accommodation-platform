@@ -1,0 +1,30 @@
+@keyframes team-marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(50%);
+  }
+}
+
+.team-marquee {
+  animation: team-marquee 45s linear infinite;
+  will-change: transform;
+}
+
+.team-marquee:hover {
+  animation-play-state: paused;
+}
+
+@media (max-width: 768px) {
+  .team-marquee {
+    animation-duration: 35s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .team-marquee {
+    animation: none;
+  }
+}

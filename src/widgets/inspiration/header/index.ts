@@ -1,0 +1,1 @@
+export {InspirationHeader} from "./ui/inspiration-header"

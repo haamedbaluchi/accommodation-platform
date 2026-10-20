@@ -1,0 +1,1 @@
+export {CurvedSegmentTabs} from "./ui/CurvedSegmentTabs"
